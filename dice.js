@@ -2,7 +2,7 @@ var a = Math.random();
 a = (a*6)+1;
 a = Math.floor(a);
 
-var image1 = "/images/dice" + a + ".png";
+var image1 = "https://art-apurv.github.io/Dicee/images/dice" + a + ".png";
 document.querySelectorAll("img")[0].setAttribute("src",image1);
 
 var b = Math.random();
